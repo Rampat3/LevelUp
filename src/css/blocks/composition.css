@@ -1,0 +1,112 @@
+
+.composition_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.composition_product {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.composition_product_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+  }
+
+.composition_lines {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+}
+.composition_line {
+  width: 79px;
+  height: 2px;
+  background: #dcb22a;
+}
+
+.composition_line_left:first-child {
+    width: 120px;
+    transform: rotate(45deg);
+}
+
+.composition_line_left:last-child {
+    width: 120px;
+    transform: rotate(-45deg);
+}
+
+.composition_line_right:first-child {
+    width: 120px;
+    transform: rotate(-45deg);
+}
+
+.composition_line_right:last-child {
+    width: 120px;
+    transform: rotate(45deg);
+}
+
+.composition_image img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+.composition_product a{
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+.composition_product button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 393px;
+    background: #dcb22a;
+    border: solid 0px #dcb22a;
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    font-family: Arial;
+    font-size: 36px;
+    text-align: right;
+    transition: 1s ;
+}
+.composition_product button:hover{
+  background: rgba(255, 255, 0, 1.9);
+}
+
+.composition_item {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.composition_img {
+    width: 200px;
+    height: 200px;
+    background: #501d58;
+    border: 2px solid #dcb22a;
+    border-radius: 100%;
+}
+
+.composition_name {
+    margin: 10px 0px 50px 50px;
+}
+
+.name_ingredient {
+    font-weight: 600;
+    font-size: 24px;
+    color: #dcb22a;
+    font-family: Arial;
+}
+
+.ingredient{
+  line-height: 1;
+}

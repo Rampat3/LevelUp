@@ -1,0 +1,135 @@
+@media (max-width: 1508px){
+  .content{
+    max-width: 1200px;
+    margin: auto;
+  }
+  .promotion_img img{
+    max-width: 450px;
+    margin-left: 50px;
+  }
+
+  .promotion_text p{
+    font-size: 26px;
+  }
+
+  .title_text li{
+    font-size: 26px;
+  }
+}
+
+/* Large desktops and laptops */
+@media (max-width: 1200px) {
+  .content{
+    max-width: 1100px;
+    margin: auto;
+  }
+}
+
+
+/* Portrait tablets and small desktops */
+@media (max-width: 1108px) {
+  .content{
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .header_title_img img{
+    width: 300px;
+  }
+
+  .header_items li{
+    font-size: 26px;
+  }
+
+  .title_text{
+    font-size: 26px;
+  }
+
+  .header_img img{
+    max-width: 350px;
+  }
+
+  .composition_image img{
+    max-width: 250px;
+  }
+
+  .composition_img{
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .name_ingredient{
+    font-size: 26px;
+  }
+
+  .promotion_text p{
+    font-size: 23px;
+  }
+
+  .promotion_text li {
+    font-size: 23px;
+}
+
+.promotion_img img{
+  width: initial !important;
+  height: initial !important;
+}
+
+.text_anim p{
+  font-size: 36px;
+}
+
+.form_title_text{
+  font-size: 10px;
+}
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 994px) {
+  .content{
+    max-width: 740px;
+  }
+  .img_name_form img{
+    max-width: 350px;
+  }
+
+  .form_img img{
+    max-width: 400px;
+  }
+
+  .header_wrapper{
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .header_img{
+    text-align: center;
+  }
+
+  .header_img img{
+    max-width: 400px;
+  }
+
+  .composition_wrapper{
+    text-align: center;
+  }
+
+  .promotion_img{
+    text-align: center;
+  }
+
+  .promotion_text{
+    text-align: center;
+  }
+
+  .form_wrapper{
+    flex-direction: column-reverse;
+  }
+
+  .filling_form{
+    margin-top: 40px;
+    margin-left: 0;
+    align-items: center;
+  }
+.filling_form-wrapper {
+    width: 100%;
+  }

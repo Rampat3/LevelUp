@@ -1,0 +1,33 @@
+ul li{
+  list-style-type: none;
+}
+
+.no-margin-padding{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-image: url("../../img/header_bg.jpg");
+  background-repeat: round;
+}
+
+h2{
+  font-size: 52px;
+  color: #dcb22a;
+  text-align: center;
+  font-family: Arial;
+  margin-top: 150px;
+}
+
+.content{
+  width: 1500px;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.title{
+  font-family: Arial;
+}
